@@ -17,13 +17,11 @@ const Navbar = () => {
             <FaCode size="3rem" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
-
         <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen);
           }} />
         </MobileIcon>
-
         <NavItems>
           <NavLink href='#about'>Sobre</NavLink>
           <NavLink href='#skills'>Habilidades</NavLink>
@@ -31,11 +29,9 @@ const Navbar = () => {
           <NavLink href='#projects'>Projetos</NavLink>
           <NavLink href='#education'>Educação</NavLink>
         </NavItems>
-
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">GitHub</GitHubButton>
         </ButtonContainer>
-
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
