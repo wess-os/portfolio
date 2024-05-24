@@ -138,7 +138,7 @@ export const ResumeButton = styled.a`
   font-size: 20px;
   font-weight: 600;
   transition: all 0.2s ease-in-out !important;
-  background: hsl(0, 100%, 25%); /* Exemplo de vermelho escuro */
+  background: hsl(0, 100%, 25%);
   background: linear-gradient(225deg, hsl(0, 100%, 25%) 0%, hsl(10, 100%, 25%) 100%);
   background: -moz-linear-gradient(225deg, hsl(0, 100%, 25%) 0%, hsl(10, 100%, 25%) 100%);
   background: -webkit-linear-gradient(225deg, hsl(0, 100%, 25%) 0%, hsl(10, 100%, 25%) 100%);

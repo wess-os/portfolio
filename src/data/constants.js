@@ -136,7 +136,22 @@ export const projects = [
     description:
       "descrição",
     image:
-      "https://img.icons8.com/?size=100&id=53428&format=png&color=000000",
+      "https://img.icons8.com/?size=100&id=60034&format=png&color=000000",
+    tags: [
+      "Docker",
+    ],
+    category: "categoria",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 0,
+    title: "Projeto 2",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "descrição",
+    image:
+      "https://img.icons8.com/?size=100&id=60034&format=png&color=000000",
     tags: [
       "Docker",
     ],
