@@ -131,33 +131,55 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Projeto 1",
-    date: "Jun 2023 - Jul 2023",
+    title: "CRUD",
+    date: "Apr 2024 - Apr 2024",
     description:
-      "descrição",
-    image:
-      "https://img.icons8.com/?size=100&id=60034&format=png&color=000000",
+      "É possível listar, cadastrar, editar e excluir dados pelo frontend em uma interface intuitiva e agradável. Todos os tipos de erros são tratados nesse projeto, tanto no backend quanto no frontend. No frontend contém paginação para as pessoas cadastradas e funcionalidade de busca. Para acessar o sistema pelo backend ou pelo frontend é necessário estar autenticado;",
     tags: [
-      "Docker",
+      "NodeJS, ReactJS, MySQL",
     ],
     category: "categoria",
-    github: "",
-    webapp: "",
+    github: "https://github.com/wess-os/crud-project",
+    webapp: "https://github.com/wess-os/crud-project",
   },
   {
     id: 0,
-    title: "Projeto 2",
-    date: "Jun 2023 - Jul 2023",
+    title: "Sidebar project",
+    date: "Feb 2024 - Feb 2024",
     description:
-      "descrição",
-    image:
-      "https://img.icons8.com/?size=100&id=60034&format=png&color=000000",
+      "Um sidebar simples, porém completo e intuitivo ao usuário, além de ter uma opção para habilitar modo escuro. Foram utilizados métodos de material design.",
     tags: [
-      "Docker",
+      "ReactJS, Material UI",
     ],
     category: "categoria",
-    github: "",
-    webapp: "",
+    github: "https://github.com/wess-os/sidebar-react?tab=readme-ov-file",
+    webapp: "https://nav-bar-react-wine.vercel.app/",
+  },
+  {
+    id: 0,
+    title: "Controle de finanças",
+    date: "Sep 2023 - Sep 2023",
+    description:
+      "Este projeto é um sistema de controle de finanças, que permite que os clientes e os fornecedores cadastrem e gerenciem suas finanças. O sistema possui uma interface de usuário intuitiva e fácil de usar. As informações são salvas no próprio navegador.",
+    tags: [
+      "JavaScript, HTML, CSS",
+    ],
+    category: "categoria",
+    github: "https://github.com/wess-os/controle-de-financas",
+    webapp: "https://wess-os.github.io/controle-de-financas/",
+  },
+  {
+    id: 0,
+    title: "Geador de QRCode",
+    date: "May 2023 - May 2023",
+    description:
+      "Um projeto que basicamente gera qualquer tipo de QRCode, seja link ou texto, foi utilizado uma API para converter o texto em QRCode. O projeto foi desenvolvido utilizando JavaScript e HTML.",
+    tags: [
+      "JavaScript, HTML, CSS",
+    ],
+    category: "categoria",
+    github: "https://github.com/wess-os/projeto-qrcode",
+    webapp: "https://wess-os.github.io/projeto-qrcode/",
   },
 ];
   
