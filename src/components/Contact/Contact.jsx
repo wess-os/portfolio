@@ -6,7 +6,7 @@ function Contact() {
     
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contato</h1>
-      <form action="">
+      {/* <form action="">
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Nome
@@ -42,7 +42,9 @@ function Contact() {
             required></textarea>
         </div>
         <input className="hover btn" type="submit" value="Enviar" />
-      </form>
+      </form> */}
+      <p>Email: <strong>wmos.contato@gmail.com</strong></p>
+      <p>Whatsapp: <strong>28999182544</strong></p>
     </section>
 
   );
